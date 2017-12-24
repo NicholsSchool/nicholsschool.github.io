@@ -1,0 +1,44 @@
+
+html, body {
+margin:0;
+padding:0;
+height:100%;
+background-color: darkgreen;
+}
+
+
+img {
+	position: absolute;
+	height: 10%;
+	width:  20%;
+}
+
+.header {
+
+	height: 4.5em;
+	background-color: green;
+}
+
+.nav {
+	
+	text-align: center;
+	width: 30em;
+	position: relative;
+	left: 50em;
+	top: 0em;
+	word-spacing: 3em;
+	padding-top: 0.5em;
+	padding-right: 3em;
+
+}
+
+.nav li{
+	display: inline-block;
+	font-size: 22px;
+	font: cursive; 
+	color: yellow;
+}
+
+.nav li:hover {
+	color: gold;
+}
