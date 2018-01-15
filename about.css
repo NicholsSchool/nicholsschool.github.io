@@ -1,0 +1,66 @@
+
+.main-img {
+height: 30em;
+min-width: 100%;
+border: 3px solid black;
+}
+.main-img img {
+	max-height: 50%;
+	min-width:  100%;
+}
+
+
+.large-block {
+	display: block;
+	position: relative;
+	background-color: #1ba336;
+	height: 25em;
+	border-bottom: dashed 3px gold
+}
+
+.large-title {
+	font-size: 30px;
+	color: #fff100;
+	width: 50%;
+	letter-spacing: 0.15em;
+	border: 7px dotted gold;
+	border-radius: 15px;
+	border-top: none;
+	border-left: none;
+}
+
+.large-info {
+	font-size: 25px;
+	color: yellow;
+	width: 75%;
+	position: relative;
+	left: 1em;
+	line-height: 1.7em;
+
+}
+
+.title {
+	position: relative;
+	left: 1em;
+}
+
+#first {
+	letter-spacing: 0em;
+	
+	font-size: 65px;
+}
+
+.large-title h1 {
+	display: inline-block;
+	
+}
+
+.large-block img {
+	height: 70%;
+	position: relative;
+	top: -23em;
+	float: right;
+	right: 3em;
+}
+
+

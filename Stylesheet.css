@@ -22,7 +22,7 @@ background-color: darkgreen;
 .nav {
 	
 	text-align: center;
-	width: 30em;
+	width: 40em;
 	position: relative;
 	left: 50em;
 	top: 0em;
@@ -32,14 +32,15 @@ background-color: darkgreen;
 
 }
 
-.nav li{
+.nav li, .nav a:link, .nav a:visited {
 	display: inline-block;
+	text-decoration: none;
 	font-size: 22px;
 	font: cursive; 
 	color: yellow;
 }
 
-.nav li:hover {
+.nav li:hover, .nav a:hover {
 	color: gold;
 }
 
