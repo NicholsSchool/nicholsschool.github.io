@@ -58,9 +58,10 @@ border: 3px solid black;
 .large-block img {
 	height: 70%;
 	position: relative;
-	top: -23em;
+	top: -22em;
 	float: right;
 	right: 3em;
+	border-radius: 10%;
 }
 
 
