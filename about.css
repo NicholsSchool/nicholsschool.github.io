@@ -1,0 +1,72 @@
+
+.main-img {
+height: 30em;
+min-width: 100%;
+border: 3px solid black;
+}
+.main-img img {
+	max-height: 50%;
+	min-width:  100%;
+}
+
+
+.block {
+	display: block;
+	position: relative;
+	background-color: #1ba336;
+	height: 25em;
+	border-bottom: dashed 3px gold
+}
+
+.block-title {
+	font-size: 30px;
+	color: #fff100;
+	width: 50%;
+	letter-spacing: 0.15em;
+	border: 7px dotted gold;
+	border-radius: 15px;
+	border-top: none;
+	border-left: none;
+}
+
+.block-info {
+	font-size: 25px;
+	color: yellow;
+	width: 75%;
+	position: relative;
+	text-shadow: 3px 0px 5px black;
+	line-height: 1.7em;
+
+}
+
+.title {
+	position: relative;
+	left: 1em;
+}
+
+#first {
+	letter-spacing: 0em;
+	text-shadow: 6px 0px 8px black;
+	font-size: 65px;
+}
+
+.block-title h1 {
+	display: inline-block;
+	text-shadow: 3px 0px 5px black;
+}
+
+.block img {
+	height: 70%;
+	position: relative;
+	top: -22em;
+	float: right;
+	right: 3em;
+	border-radius: 10%;
+}
+
+.teams h1 {
+	color: yellow;
+	text-shadow: 6px -3px 10px black;
+	padding-bottom: 1em;
+}
+
