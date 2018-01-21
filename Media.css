@@ -1,19 +1,4 @@
-.title {
-	margin-top: 1em;
-	background-color: #4caa00;
 
-}
-
-.title h1{
-	text-align: center;
-	font-family: Arial;
-	font-size: 40px;
-	height: 2.5em;
-	padding-top: 1.25em;
-	color: yellow;
-	text-shadow: 6px 0px 8px black;
-
-}
 
 
 .right {
@@ -36,8 +21,8 @@
 .vid {
 	text-align: center;
 	padding-top: 2em;
-	width: 41em;
-	height: 26em;
+	width: 45%;
+	height: 86%;
 }
 
 
@@ -52,6 +37,43 @@
 	text-shadow: 1px 0px 5px black;
 }
 
+.social {
+	height: 15em;
 
+}
 
+.title h1 {
+	color: yellow;
+	font-size: 50px;
+	margin-left: 1%;
+	padding-top: 0.5em;
+	text-shadow: 1px 0px 5px black;
+}
 
+.title p {
+	color: yellow;
+	font-size: 20px;
+	margin-left: 1%;
+	margin-top: -1%;
+	padding-top: -0.5em;
+	width: 40%;
+	text-shadow: 1px 0px 5px black;
+}
+
+.media-photos {
+	float: right;
+	position: relative;
+	margin-right: 5%;
+	bottom: 5em;
+	
+}
+
+.media-photos img {
+	width: 5em;
+	height: 5em;
+	margin-left: 4em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	border: 3px dashed darkgreen;
+	border-radius: 15px;
+	
+}
