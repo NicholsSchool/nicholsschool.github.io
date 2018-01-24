@@ -1,11 +1,28 @@
 
 html, body {
+<<<<<<< HEAD
 	margin:0;
 	padding:0;
 	height:100%;
 	background-color: darkgreen;
+=======
+margin:0;
+padding:0;
+background-color: darkgreen;
+>>>>>>> master
 }
 
+
+#status {
+	text-align: center;
+	color: gold;
+	margin-top: 25%;
+	margin-left: 25%;
+	font-size: 60px;
+	background-color: grey;
+	width: 10em;
+	border: 3px solid black;
+}
 
 .logo img {
 	position: absolute;
