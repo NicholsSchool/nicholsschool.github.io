@@ -28,7 +28,8 @@ html, body {
 	float: right;
 	top: 0;
 	word-spacing: 3em;
-	padding-top: 0.5em;
+	margin-top: 0.5em;
+	margin-right: 3em;
 	
 	z-index: 30;
 }
