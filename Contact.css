@@ -1,0 +1,51 @@
+
+
+.main {
+	font-family: 'Amita', cursive;
+	margin-left: 2em;
+	color: yellow;
+	height: 100%;
+}
+
+.main * {
+
+	display: block;
+}
+
+.title {
+	font-size: 30px;
+}
+
+.description {
+	font-size: 20px;
+	width: 50%;
+}
+
+.info {
+	float: right;
+	margin-top: -25%;
+	margin-right: 2em;
+}
+
+.mail {
+	
+	width: 100%;
+}
+
+.mail * {
+	display: inline-block;
+	
+}
+
+.location {
+	font-size: 40px;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.address {
+	font-family: Times New Roman;
+	margin-left: 0em;
+	font-size: 25px;
+	margin-left: 1em;
+}
