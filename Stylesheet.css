@@ -21,9 +21,9 @@ html, body {
 }
 
 .nav {
-	
-	text-align: center;
-	width: 50%;
+	margin-right: 5%;
+	text-align: right;
+	width: 75%;
 	position: relative;
 	float: right;
 	top: 0;
@@ -34,6 +34,7 @@ html, body {
 }
 
 .nav li, .nav a:link, .nav a:visited {
+
 	display: inline-block;
 	text-decoration: none;
 	font-size: 22px;
@@ -52,6 +53,8 @@ html, body {
 	border-top: 1px solid black;
 	padding-bottom: 0.5em;
 	padding-top: 0.5em;
+	
+	bottom: 0;
 	text-align: center;
 	font-size: 14px;
 
