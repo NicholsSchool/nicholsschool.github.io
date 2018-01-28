@@ -2,16 +2,17 @@
 .main-img {
 	z-index: -1;
 	margin-top: -0.2em;
-	height: 30em;
-	min-width: 100%;
 }
 .main-img img {
- position: absolute;
+ 
  width: 100%;
  height: 65%;
 	
 }
 
+.main {
+	font-family: 'Old Standard TT', serif;
+}
 
 .block {
 	display: block;

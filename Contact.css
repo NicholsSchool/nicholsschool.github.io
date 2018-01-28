@@ -8,7 +8,6 @@
 }
 
 .main * {
-
 	display: block;
 }
 
@@ -23,7 +22,7 @@
 
 .info {
 	float: right;
-	margin-top: -25%;
+	margin-top: -40%;
 	margin-right: 2em;
 }
 
@@ -37,8 +36,12 @@
 	
 }
 
+.number {
+	font-size: 20px;
+}
+
 .location {
-	font-size: 40px;
+	font-size: 30px;
 	text-decoration: underline;
 	font-weight: bold;
 }
@@ -46,6 +49,6 @@
 .address {
 	font-family: Times New Roman;
 	margin-left: 0em;
-	font-size: 25px;
+	font-size: 20px;
 	margin-left: 1em;
 }
