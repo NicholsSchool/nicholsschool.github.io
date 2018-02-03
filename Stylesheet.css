@@ -2,7 +2,6 @@
 html, body {
 margin:0;
 padding:0;
-background-color: darkgreen;
 }
 
 
@@ -24,9 +23,7 @@ background-color: darkgreen;
 }
 
 .header {
-
-	height: 4.5em;
-	background-color: green;
+	height: 5em;
 }
 
 .nav {
@@ -68,15 +65,31 @@ background-color: darkgreen;
 	text-align: center;
 	padding-bottom: 2em;
 	background-color: #21491c;
+	border-left: 20%;
+	border-right: 20%;
 }
 
 .info h1 {
 	padding-top: 2em; 
-
+	border-left: 20%;
 	color: #ffd366;
 	text-decoration: underline;
 }
 
 .info p {
 	color: yellow;
+}
+
+.p1 {
+    font-family: 'Graduate', cursive;
+    position: absolute;
+    top: 30%;
+    left: 60%
+    transform: translate(-50%, -50%);
+    opacity: 0.8;
+}
+
+.pic {
+	height: 100%;
+	width: 100%;
 }
