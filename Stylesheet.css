@@ -20,7 +20,7 @@ html, body {
 
 	height: 4.5em;
 	background-color: green;
-	
+	border-bottom: 3px solid darkgreen;
 }
 
 .nav {
