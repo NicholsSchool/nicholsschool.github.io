@@ -2,16 +2,17 @@
 .main-img {
 	z-index: -1;
 	margin-top: -0.2em;
-	height: 30em;
-	min-width: 100%;
 }
 .main-img img {
- position: absolute;
+ 
  width: 100%;
  height: 65%;
 	
 }
 
+.main {
+	font-family: 'Old Standard TT', serif;
+}
 
 .block {
 	display: block;
@@ -103,11 +104,50 @@
 
 }
 
-#awards-title {
+.center-title {
 	color: #fff100;
 	text-align: center;
 	font-size: 25px;
 	border-top: 0.5px solid #1ba336;
 	border-bottom: 3px solid gold;
 	text-shadow: 6px 0px 6px black;
+}
+
+.robots{
+	border: 3px solid blue;
+
+	height: 40em;
+
+}
+
+.robot-img {
+	margin-right: 10em;
+	border: 3px solid black;
+	height: 100%;
+	width: 100%;
+
+}
+
+.left {
+	float: left
+	margin-left: 5em;
+	display: inline-block;
+	width: 40%;
+	height: 100%;
+	border: 3px solid black;
+}
+.right {
+	float: right;
+	margin-right: 5em;
+display: inline-block;
+	width: 40%;
+	height: 100%;
+	border: 3px solid black;
+}
+.robots img {
+	display:table;
+	margin-top: 25em;
+	height: 50%;
+	width: 30%;
+
 }
