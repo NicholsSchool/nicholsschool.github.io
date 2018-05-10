@@ -23,6 +23,10 @@
 	color: yellow;
 	text-decoration: bold;
 }
+.info p {
+	padding-right: 2em;
+	padding-left: 2em;
+}
 
 #name {
 	padding-top: 0.3em;
