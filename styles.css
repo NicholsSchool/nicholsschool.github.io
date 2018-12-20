@@ -1,0 +1,19 @@
+.parallax-window {
+    min-height: 100vh;
+}
+
+/* for href="#" links */
+.anchor{
+    display: block;
+    height: 30vh; /*same height as header*/
+    margin-top: -30vh; /*same height as header*/
+    visibility: hidden;
+}
+
+.vertical-center {
+    padding-top: 40vh;
+}
+
+.top-nav-collapse {
+    background: #00C851;
+}
