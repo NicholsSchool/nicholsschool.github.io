@@ -1,3 +1,2 @@
-# RoboticsWebsite
+# Nichols School Electric Mayhem 4930
 A website for FRC Team 4930, Electric Mayhem.
-Visit it at https://junqiwu02.github.io/RoboticsWebsite/
