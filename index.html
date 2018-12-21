@@ -12,6 +12,7 @@
     <link rel="icon" href="icon.png">
     <link rel="apple-touch-icon" href="icon.png">
 
+    <link href="https://fonts.googleapis.com/css?family=Oxygen+Mono" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
         crossorigin="anonymous">
@@ -19,6 +20,14 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.16/css/mdb.min.css" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    
+    <script>
+       AOS.init();
+      </script>
 
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -76,21 +85,21 @@
     </nav>
     <div class="parallax-window" data-parallax="scroll" data-image-src="team-image.png" data-natural-width="2028"
         data-natural-height="838">
-        <h1 class="display-2 text-white text-center vertical-center">
-            <b>Inspire.</b>
+        <h1 class="typewriter row display-2 text-white text-center vertical-center">
+            <b class = "">Inspire.</b>
         </h1>
     </div>
     <span id="home" class="anchor"></span>
     <div class="container">
         <div class="row mx-0 mt-5 mb-0 py-5">
-            <div class="col">
-                <h1 class="display-4 text-center">
+            <div class="paragraph col">
+                <h3 class=" text-center">
                     Nichols School Robotics:
-                </h1>
-                <h4 class="text-center">
+                </h3>
+                <h1 id= "name"class=" font-weight-bold display-4 text-center">
                     Electric Mayhem 4930
-                </h4>
-                <p>
+                </h1>
+                <p id = "team" class = "pt-5">
                     Nichols School is honored to be the home of FRC Team 4930: Electric Mayhem. We have been proudly
                     generating mayhem ever since 2014, and we have created multiple new FRC teams in our area, along
                     with other teams in FIRST. By allowing our students to gain sports credit for joining the team, we
@@ -99,9 +108,9 @@
             </div>
         </div>
         <div class="row mx-0 mt-0 mb-5 py-5 justify-content-center">
-            <div class="col col-12 col-md-8">
+            <div class="paragraph col col-12 col-md-8">
                 <h4 class="text-center">This year's robot...</h4>
-                <h1 class="display-4 text-center mb-4">Kermit!</h1>
+                <h1  style = "color: green; text-shadow: 2px 0px 2px gold;"class="display-4 text-center mb-4">Kermit!</h1>
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CYa8nYZOdQw"></iframe>
                 </div>
@@ -110,13 +119,13 @@
     </div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="presentation.png" data-natural-width="1192"
         data-natural-height="438">
-        <h1 class="display-2 text-white text-center vertical-center">
-            <b>Innovate.</b>
+        <h1 class="typewriter row display-2 text-white text-center vertical-center">
+            <b >Innovate.</b>
         </h1>
     </div>
     <span id="about" class="anchor"></span>
-    <div class="container p-0">
-        <h1 class="display-4 my-5 pt-5 pb-0 text-center">About</h1>
+    <div class="paragraph container p-0">
+        <h2 class="display-4 my-5 pt-5 pb-0 text-center">About</h2>
         <hr class="w-75 my-0">
         <div class="row m-0 py-5">
             <div class="col col-12 col-md-4">
@@ -183,30 +192,35 @@
     </div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="zoot.png" data-natural-width="1200"
         data-natural-height="800">
-        <h1 class="display-2 text-white text-center vertical-center">
+        <h1 class="typewriter row display-2 text-white text-center vertical-center">
             <b>Impact.</b>
         </h1>
     </div>
     <span id="events" class="anchor"></span>
-    <div class="container p-0">
-        <h1 class="display-4 my-5 pt-5 pb-0 text-center">Events</h1>
+    <div class="paragraph container p-0">
+        <h2 class="display-4 my-5 pt-5 pb-0 text-center">Events</h2>
         <hr class="w-75 my-0">
-        <img class="img-fluid p-0" src="power-up.png" alt="">
-        <div class="row m-0 py-5">
+        <div class = "row justify-content-center" >
+            <img style = "height: 20em" class="pt-3" src="SpaceLogo.jpg" alt="">
+        </div>
+        <div class=" row m-0 py-5">
             <div class="col col-12 col-md-4">
                 <h1>First PowerUp Events</h1>
             </div>
-            <div class="col col-12 col-md-8">
-                <h4>Finger Lakes Regional</h4>
-                <p><i>March 14 - 17, 2018</i><br>
-                    R.I.T. Gordon Field House and Activities Center</p>
+            <div class="pt-5 col col-12 col-md-5">
+                <h4>Festival de Robotique a Montreal Regional</h4>
+                <p><i>February 27 - March 2, 2019</i><br>
+                   Montreal Olympic Stadium</p>
                 <br>
-                <h4>Pittsburg Regional</h4>
-                <p><i>March 21 - 24, 2018</i><br>
-                    Penn State Greater Allegheny Frable Building</p>
+                <h4>Central New York Regional</h4>
+                <p><i>March 13 - March 16, 2019</i><br>
+                    SUNY Polytechnic Institute </p>
+            </div>
+            <div data-aos="fade-up-left"  class = "col-md-3">
+                <img id = "rocket" src = "Rocket.png">
             </div>
         </div>
-        <div class="row mx-0 mt-0 mb-5 py-5">
+        <div class="paragraph row mx-0 mt-0 mb-5 py-5">
             <div class="col col-12 col-md-4">
                 <h1>Game Description</h1>
             </div>
@@ -223,13 +237,13 @@
     </div>
     <div class="parallax-window" data-parallax="scroll" data-image-src="fll.png" data-natural-width="1200"
         data-natural-height="900">
-        <h1 class="display-2 text-white text-center vertical-center">
-            <b>Share.</b>
+        <h1 class="typewriter row display-2 text-white text-center vertical-center">
+            <b class = "">Share.</b>
         </h1>
     </div>
     <span id="media" class="anchor"></span>
-    <div class="container p-0">
-        <h1 class="display-4 my-5 pt-5 pb-0 text-center">Media</h1>
+    <div class="paragraph container p-0">
+        <h2 class="display-4 my-5 pt-5 pb-0 text-center">Media</h2>
         <hr class="w-75 my-0">
         <div class="row m-0 py-5">
             <div class="col col-12 col-md-6">
@@ -240,8 +254,8 @@
             <div class="col col-12 col-md-6">
                 <p class="my-3">
                     This is our robot, Animal, built for 2016’s FIRST STEAMworks! Animal is able collect and
-                    release fuel, score gears, and climb in x seconds. Aside from serving us well during
-                    competition season, our robot to place third in FRC Top 25’s Release Night, where we competed
+                    release fuel, score gears, and climb in 10 seconds. Aside from serving us well during
+                    competition season, our robot placed third in FRC Top 25’s Release Night, where we competed
                     with teams from all over the world. Our bot’s electrical board is also award winning. It placed
                     first in AndyMark’s Awesome Wiring Contest and its unique design, coupled with our programming
                     team’s efforts, allowed us to take home Innovation in Control at the Finger Lakes’ Regional.
@@ -282,7 +296,7 @@
     <div class="parallax-window" data-parallax="scroll" data-image-src="buffalo.png" data-natural-width="1200"
         data-natural-height="413"></div>
     <span id="contact" class="anchor"></span>
-    <div class="container p-0">
+    <div class="container p-0 paragraph">
         <div class="row mx-0 my-5 py-5">
             <div class="col col-12 col-md-6">
                 <h1>Contact Us</h1>
@@ -294,13 +308,13 @@
             </div>
             <div class="col col-12 col-md-6">
                 <h4>1250 Amherst St, Buffalo, NY 14216<br><br>
-                    Philip Coburn Phone#: 716-332-6300 x511<br>
+                    Philip Coburn Phone#: 716-332-6300 x511<br><br>
                     Phillip Coburn: pcoburn@nicholsschool.org<br><br>
                     Larry Hiller: lhiller@nicholsschool.org</h4>
             </div>
         </div>
         <hr class="w-75 my-0">
-        <p class="text-center py-5">©2018 Nichols Electric Mayhem. All Rights Reserved.</p>
+        <p class="text-center py-5">© 2018 Nichols Electric Mayhem. All Rights Reserved.</p>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

@@ -17,3 +17,75 @@
 .top-nav-collapse {
     background: #00C851;
 }
+
+hr {
+    border : 1px solid #00C851;
+}
+
+#team 
+{
+    font-size: 20px;
+    line-height: 2em; 
+    text-align: center;
+}
+
+#rocket
+{
+    transform: rotate(-40deg);
+    height: 15em;
+}
+
+.paragraph 
+{
+    line-height: 2em;
+    font-family: 'Oxygen Mono', cursive;
+    font-size: 16px;
+}
+
+
+.paragraph h4
+{
+    font-weight: bold;
+ 
+}
+.paragraph h1
+{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #00C851;
+}
+
+#name
+{
+    color: #00C851;
+     text-shadow: 2px 0px 0px gold;
+      text-decoration: underline;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter b {
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .05em solid white;
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+
+
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 40% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: white }
+  }
