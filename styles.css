@@ -66,6 +66,7 @@ hr {
 .typewriter b {
     color: #fff;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
+    height: 1.3em;
     border-right: .05em solid white;
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 0 auto; /* Gives that scrolling effect as the typing happens */
@@ -76,12 +77,26 @@ hr {
       blink-caret .5s step-end infinite;
   }
 
-
+  .typewriter h1 
+  {
+    width: 80%;
+  }
+  @media only screen and (max-width: 500px) 
+  {
+      .fit{
+        font-size: 0.7em;
+      }
+      .typewriter b 
+      {
+        animation: 
+        blink-caret .5s step-end infinite;
+      }
+ }
   
   /* The typing effect */
   @keyframes typing {
     from { width: 0 }
-    to { width: 40% }
+    to { width: 50% }
   }
   
   /* The typewriter cursor effect */
