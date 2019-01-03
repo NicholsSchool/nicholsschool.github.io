@@ -1,3 +1,7 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 .parallax-window {
     min-height: 100vh;
 }
@@ -104,3 +108,4 @@ hr {
     from, to { border-color: transparent }
     50% { border-color: white }
   }
+  
