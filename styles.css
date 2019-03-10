@@ -85,10 +85,28 @@ hr {
   {
     width: 80%;
   }
+
+  #mainTitle
+  {
+      text-shadow: 1px 1px 3px gold; 
+      letter-spacing: 10px;
+      text-decoration: underline; 
+      text-decoration-color: green;
+      font-size: 0.5em;
+  }
   @media only screen and (max-width: 500px) 
   {
       .fit{
         font-size: 0.7em;
+      }
+      #mainTitle
+      {
+          font-size: 0.3em;
+          padding-left: 1em;
+      }
+      #robotName
+      {
+          font-size: 2.5em;
       }
       .typewriter b 
       {
