@@ -1,6 +1,7 @@
 {
     "organizer": "Mr.Hiller",
     "date": "June 17, 2019",
+    "title": "Newcomers Academy Field Day",
     "images": 3,
     "mentors": ["Mr.Hiller"],
     "students":["Luke", "Lauren", "Arnav", "Rohit", "Ben"],
@@ -14,4 +15,4 @@
     ],
     "lesson": "We did not experience many issues during the event. Our communication amongst ourselves and the school student body coordinators was excellent and we were set up half an hour in advance of the Newcomer students' arrival. One thing that we can keep in mind for the future though, is that students may get bored by doing the same actions with the robots, so it is good to plan out more ways for them to use the bots, such as kickball. "
 
-    }
+}
