@@ -1,0 +1,26 @@
+{
+    "organizer": "Mr.Coburn",
+    "date": "Feburary 8th, 2019",
+    "images": 3,
+    "mentors": [
+        "Mr.Coburn"
+    ],
+    "students": [
+        "Phil",
+        "Paul",
+        "Rob",
+        "Carl",
+        "Mary"
+    ],
+    "location": "Nasa Headquarters, Buffalo NY",
+    "audience": "5000-6000 Scientists ",
+    "info": [
+        [
+            "h3",
+            "We built a rocket for mars"
+        ],
+        "We created a rocket and also teleportation devices",
+        "Everything was perfect "
+    ],
+    "lesson": "We are awesome "
+}
