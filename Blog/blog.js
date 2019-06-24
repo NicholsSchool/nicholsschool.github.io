@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", event =>{
  function setUpBlog()
 {
     $('#blog').load('/Blog/emptyBlog.html', function(){
-        readTextFile('details.json')
+        readTextFile('details.json');
+        $('.link').each(function(index){
+            $(this).attr('href', '/index.html');
+        })
    });
 }
 

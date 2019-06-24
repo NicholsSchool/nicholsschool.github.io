@@ -1,0 +1,9 @@
+#head {
+    margin-top: 3em;
+    background-color: lime;
+}
+
+#logo
+{
+    width: 2em !important;
+}
