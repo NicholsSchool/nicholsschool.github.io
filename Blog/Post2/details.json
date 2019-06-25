@@ -1,0 +1,28 @@
+{
+    "organizer": "Mr. Hiller",
+    "date": "May 2nd, 2019",
+    "title": "Annual BETA Awards Sponsored by InfoTech Niagara.",
+    "images": 4,
+    "mentors": [
+        "Mr. Hiller", "Mr. Coburn", "Dilan", "Darren", "Mr. Kiddy"
+    ],
+    "students": [
+        "Yohan",
+        "Rohit",
+        "Lauren",
+        "Ben",
+        "Arnav",
+        "Yamato"
+    ],
+    "location": "Buffalo RiverWorks, 359 Ganson St, Buffalo NY",
+    "audience": "80 Students and Numerous Technology Companies in WNY",
+    "info": [
+        [
+            "h3",
+            "We held our annual \"Mayhem in May\" FTC Robotics Competition with 6 other teams at Infotech's Beta Awards "
+        ],
+        "Our team was invited again by Infotech, a consortium of multi-sized technology companies in Western New York, where we showcased our robots while also holding an FTC tournment. Our two FTC teams played against six other FTC teams in the area. Kermit and Dr. Julius Strangepork were demoed for the entrepreneurs there.",
+        "The event was very well recieved. The executives at the event were very fond of the FRC bots and the FTC Competition. All eight teams enjoyed playing and our green team ended up winning the competition. We look forward to next years event!"
+    ],
+    "lesson": "We had used FTC Official software to record the scores for each match, and for all but one match this sotware worked perfectly. This is event was certainly good practice for if we are ever able to host a full FTC event in the future. We were able to mingle with a variety of companies and spread the message of FIRST to each of them. Next year we hope to invite more teams to participate."
+}

@@ -19,7 +19,7 @@ html, body {
 }
 
 .top-nav-collapse {
-    background: #00C851;
+    background: #00C851 !important;
 }
 
 hr {

@@ -1,0 +1,30 @@
+.navbar{
+    background-color: gray;
+}
+#blog{
+    margin-top: 5em;
+}
+.border-success {
+    box-shadow: 1px 2px 3px 1px #88C284 !important; 
+}
+.text{
+    line-height: 2;
+    border-right: 1px dotted #00C851;
+    padding-right: 3em;
+}
+.text p {
+text-indent:40px;
+}
+
+#sidebar{
+    margin-top: 8em;
+}
+
+.carousel-item {
+  height: 20%;
+}
+
+.border {
+    border: 5px solid green;
+}
+

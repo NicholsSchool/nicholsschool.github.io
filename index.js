@@ -6,3 +6,10 @@ $('a[href*="#"]').on('click', function (e) {
         scrollTop: $($(this).attr('href')).offset().top
     }, 'slow');
 });
+
+function loadHeader()
+{
+    console.log("loading");
+    $('#header').load("/header.html");
+}
+loadHeader();
