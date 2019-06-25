@@ -28,7 +28,10 @@ function readTextFile(file) {
                     if(key == 'images')
                     {
                         for(var i = 0; i < a[key]; i ++)
+                        {
                             $('#' + key).append(makeImage(i + 1));
+                            $('.carousel-indicators').append(makeIndicator(i));
+                        }
                         continue;
                     }
                     if(key == 'info')
@@ -71,6 +74,15 @@ function makeImage(number)
         <img class="d-block w-100" src="Images/image${number}.jpg" alt="First slide">
                         </div>`;
 }
+
+function makeIndicator(number)
+{
+    var active = ""
+    if (number == 0)
+        active = "active";
+    return `<li data-target="#indicators" data-slide-to="0" class="${active}"></li>`
+}
+
 function makeListItem(name)
 {
     return `<li>${name}</li>`
