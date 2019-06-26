@@ -7,9 +7,12 @@ $('a[href*="#"]').on('click', function (e) {
     }, 'slow');
 });
 
-function loadHeader()
-{
     console.log("loading");
-    $('#header').load("/header.html");
-}
-loadHeader();
+    $('#header').load("/header.html", function(){
+        if(window.location.pathname != '/index.html')
+        {
+            $('.link').each(function (index) {
+                $(this).attr('href', '/index.html');
+            })
+        }
+    });
