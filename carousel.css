@@ -1,0 +1,77 @@
+    #home { 
+      background: url(http://placehold.it/2000x600/0033cc/ffffff) 50% 0 fixed; 
+      height: auto;  
+      margin: 0 auto; 
+        width: 100%; 
+        position: relative; 
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        padding: 200px 0;
+    }
+    #content1 { 
+      background: url(http://placehold.it/2000x600/0033cc/ffffff) no-repeat center center fixed;
+      height: auto;  
+      margin: 0 auto; 
+        width: 100%; 
+        position: relative; 
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        padding: 200px 0;
+    }
+    #about { 
+      background-color: black;
+      height: auto;
+      margin: 0 auto; 
+        width: 100%; 
+        position: relative; 
+        box-shadow: 0 0 50px rgba(0,0,0,0.8);
+        padding: 100px 0;
+        color: #fff;
+    }
+
+/* Carousel base class */
+.carousel {
+  height: 600px;
+  margin-bottom: 0;
+}
+.carousel-caption {
+  color: black;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 600px;
+  background-color: DimGray;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 120%;
+  max-width: 120%;
+}
+@media (max-width: 767px) {
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 120%;
+  max-width: 120%;
+    }
+}
+@media (min-width: 768px) {
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 120%;
+  max-width: 120%;
+    }
+}
+@media (min-width: 992px) {
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 120%;
+  max-width: 120%;
+    }
+}

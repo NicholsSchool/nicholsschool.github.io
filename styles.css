@@ -2,6 +2,11 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+/* Use for variables */
+:root {
+    --green: #00C851;
+}
 .parallax-window {
     min-height: 100vh;
 }
@@ -13,17 +18,57 @@ html, body {
     margin-top: -30vh; /*same height as header*/
     visibility: hidden;
 }
+.fix {
+    position: fixed;
+     top:0;
+}
+#nav {
+  /*  transition: all 3s ease;*/
+}
 
-.vertical-center {
+#sticky-phantom {
+    visibility: hidden;
+}
+.remove 
+{
+    display: none;
+}
+
+.banner 
+{
+    height: 20em !important;
+}
+.vertical-center 
+{
     padding-top: 40vh;
+}
+.nav-item
+{
+    font-size: 18px;
+}
+.logo
+{
+    display: block;
+    width: 80%;
+    height: 7em;
+    
+}
+#head{
+    position: relative;
+    top: -2em;
+}
+
+#logos div
+{
+    background-color: var(--green);
 }
 
 .top-nav-collapse {
-    background: #00C851 !important;
+    background: var(--green) !important;
 }
 
 hr {
-    border : 1px solid #00C851;
+    border : 1px solid var(--green);
 }
 
 #team 
