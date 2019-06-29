@@ -1,63 +1,34 @@
+document.addEventListener("DOMContentLoaded", event => {
 
-// parallax.js from http://untame.net/2013/04/how-to-integrate-simple-parallax-with-twitter-bootstrap/
-$(document).ready(function () {
-    // cache the window object
-    $window = $(window);
+    $('#test').on("click", function () {
+        var logo1 = $('#logo1').offset();
+        var logo2 = $('#logo2').offset();
+        var logo3 = $('#logo3').offset();
 
-    $('section[data-type="background"]').each(function () {
-        // declare the variable to affect the defined data-type
-        var $scroll = $(this);
-
-        $(window).scroll(function () {
-            // HTML5 proves useful for helping with creating JS functions!
-            // also, negative value because we're scrolling upwards                            
-            var yPos = -($window.scrollTop() / $scroll.data('speed'));
-
-            // background position
-            var coords = '50% ' + yPos + 'px';
-
-            // move the background
-            // $scroll.css({ backgroundPosition: coords });
-            $scroll.css('background-position', coords);
-        }); // end window scroll
-    });  // end section function
-
-    // http://stackoverflow.com/questions/33840128/parallax-js-and-bootstrap-carousel
-    $('img[data-type="img"]').each(function () {
-        // declare the variable to affect the defined data-type
-        var $scroll = $(this);
-
-        $(window).scroll(function () {
-            // HTML5 proves useful for helping with creating JS functions!
-            // also, negative value because we're scrolling upwards                            
-            var yPos = -($window.scrollTop() / $scroll.data('speed'));
-
-            // background position
-            var coords = yPos + 'px';
-
-            // move the background
-            // $scroll.css({ backgroundPosition: coords });   
-            $scroll.css('top', coords);
-        }); // end window scroll
-    });  // end section function
-}); // close out script
-
-// this function is for the navbar only
-$(document).ready(function () {
-    var scroll_start = 0;
-    var startchange = $('#startchange');
-    var offset = startchange.offset();
-    if (startchange.length) {
-        $(document).scroll(function () {
-            scroll_start = $(this).scrollTop();
-            if (scroll_start > offset.top) {
-                $(".navbar-default").css('background-color', '#ffffff');
-            } else {
-                $('.navbar-default').css('background-color', 'transparent');
-            }
+        // $('#logo1').css('left', logo1.left).css('top', logo1.top);
+        // $('#logo2').css('left', logo2.left).css('top', logo2.top);
+        // $('#logo3').css('left', logo3.left).css('top', logo3.top);
+        var oneToThree = logo1.left - logo3.left;
+        var twoToOne = logo2.left - logo1.left;
+        var threeToTwo = logo3.left - logo2.left;
+        var twoTop = logo2.top - $("#main-image").height() + 8;
+        var oneTop = logo1.top - $("#main-image").height() - 16;
+        console.log("OneTop: " + oneTop + "  twoTop: " + twoTop);
+        console.log("two to one" + twoToOne);
+        console.log("One to three: "  + logo3.left);
+        $("#logo2").animate({ left: -twoToOne, top: -oneTop}, 2500);
+        $("#logo3").animate({ left: -threeToTwo, top: twoTop }, 2500);
+        $('#logo1').animate({ left: "150%" }, 1250, function () {
+            $(this).animate({ left: '80%' });
         });
-    }
+        // $("#logo1").animate({ left: '-150%' }, 1250, function(){
+        //     $(this).animate({ left: '150%' }, function (){
+                
+        //     });
+        // });
+    })
+   
+    console.log(logo1.left);
+    console.log(logo2.left);
+    console.log(logo3.left);
 });
-
-/* Create HTML5 element for IE */
-document.createElement("section");
