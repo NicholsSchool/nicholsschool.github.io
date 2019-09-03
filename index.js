@@ -7,19 +7,40 @@ $('a[href*="#"]').on('click', function (e) {
     }, 'slow');
 });
 
+var currentImage = 1;
+$('#image2').hide();
+$('#image3').hide();
+var test = $('#nav').offset();
 document.addEventListener("DOMContentLoaded", event => {
     $('#sticky-phantom').height($('#nav').height());
+    $('.carousel-control-next').on('click', function (e) {
+        e.preventDefault()
+        $('.carousel').carousel('next')
+    })
+    $('#test').on("click", function() {
+
+        // console.log('#image' + currentImage);
+        // $('#image' + currentImage).hide();
+        // currentImage ++;
+        // if(currentImage > 3)
+        //     currentImage = 1;
+
+        // $('#image' + currentImage).show();
+    });
+    $('.carousel-control-prev').on('click', function (e) {
+        e.preventDefault()
+        $('.carousel').carousel('prev')
+    })
+
     $(window).scroll(function () {
 
        
          var distanceFromTop = $(this).scrollTop();
-             var headerDistanceFromTop = $("#main-image").height() + $('#logos').height() - 32;
-             console.log(headerDistanceFromTop)
-        // console.log("This distance: " + distanceFromTop);
-        // console.log("Header: " + headerDistanceFromTop );
+        
          var duration = 5000;
 
-         if (distanceFromTop >= headerDistanceFromTop) {
+        console.log("Distance from Top: " + distanceFromTop)
+         if (distanceFromTop >= test.top) {
              $('#nav').addClass('fixed-top', { duration: duration }); //Don't know if this works
              $('#sticky-phantom').show();
         } else {
