@@ -7,7 +7,7 @@ $(document).on('click', 'a[href*="#"]',  function (e) {
 });
 
 $('#header').load("/header.html", function(){
-    if(window.location.pathname != '/index.html')
+    if(window.location.pathname != '/index.html' && window.location.pathname != '/')
     {
         $('.link').each(function (index) {
             $(this).attr('href', '/index.html');
