@@ -1,4 +1,6 @@
-document.onload = function(params) {
+document.onload = function() {
+
+    alert("Loaded")
     
     setTimeout(() => {
         document.location.href = "https://electricmayhemrobotics.com";
