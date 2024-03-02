@@ -1,9 +1,9 @@
-document.onload = function() {
+window.onload = function() {
 
     alert("Loaded")
     
     setTimeout(() => {
-        document.location.href = "https://electricmayhemrobotics.com";
+        window.location.href = "https://electricmayhemrobotics.com";
     }, 1500);
 
 }

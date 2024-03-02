@@ -1,0 +1,67 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.parallax-window {
+    min-height: 100vh;
+}
+
+/* for href="#" links */
+.anchor{
+    display: block;
+    height: 30vh; /*same height as header*/
+    margin-top: -30vh; /*same height as header*/
+    visibility: hidden;
+}
+
+.vertical-center {
+    padding-top: 40vh;
+}
+
+.top-nav-collapse {
+    background: #00C851 !important;
+}
+
+hr {
+    border : 1px solid #00C851;
+}
+
+#team 
+{
+    font-size: 20px;
+    line-height: 2em; 
+    text-align: center;
+}
+
+#rocket
+{
+    transform: rotate(-40deg);
+    height: 15em;
+}
+
+.paragraph 
+{
+    line-height: 2em;
+    font-family: 'Oxygen Mono', cursive;
+    font-size: 16px;
+}
+
+
+.paragraph h4
+{
+    font-weight: bold;
+ 
+}
+.paragraph h1
+{
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: #00C851;
+}
+
+#name
+{
+    color: #00C851;
+     text-shadow: 2px 0px 0px gold;
+      text-decoration: underline;
+}
